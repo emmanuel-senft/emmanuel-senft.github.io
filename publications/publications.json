@@ -1,6 +1,14 @@
 {
     "journals": [
         {
+            "authors": "E. Billing , T. Belpaeme, H. Cai, H.-Long Cao, A. Ciocan, C. Costescu, D. David, R. Homewood, D. Hernandez Garcia, P. Gómez Esteban, H. Liu, V. Nair, S. Matu, A. Mazel, M. Selescu, E. Senft, S. Thill, B. Vanderborght, D. Vernon, T. Ziemke",
+            "title": "The DREAM Dataset: Supporting a data-driven study of autism spectrum disorder and robot enhanced therapy.",
+            "journal": "PLoS ONE 15(8): e0236939",
+            "year": 2020,
+            "DOI": "https://doi.org/10.1371/journal.pone.0236939",
+            "pdf_address": ""
+        },
+        {
             "authors": "E. Senft, S. Lemaignan, PE. Baxter, M. Bartlett, T. Belpaeme",
             "title": "Teaching robots social autonomy from in situ human guidance",
             "journal": "Science Robotics 4 (35)",
@@ -67,6 +75,16 @@
             "city": "Cambridge",
             "date": "March 2020",
             "pdf_address": "https://emmanuel-senft.github.io/papers/2020-ES-HRI.pdf" 
+        },
+        {
+            "authors": "B. Irfan, N. Céspedes, J. Casas, E. Senft, L. Gutierrez, M. Rincon-Roncancio, M. Munera, T. Belpaeme, C. A Cifuentes Garcia",
+            "title": "Using a Personalised Socially Assistive Robot for Cardiac Rehabilitation: A Long-Term Case Study",
+            "venue": "Proc. 29th IEEE International Conference on Robot and Human Interactive Communication",
+            "acronym": "(RO-MAN)",
+            "country": "Italy",
+            "city": "Napoli",
+            "date": "August-September 2020",
+            "pdf_address": "https://emmanuel-senft.github.io/papers/2020-IR-ROMAN.pdf" 
         },
         {
             "authors": "CD. Wallbridge, S. Lemaignan, E. Senft, T. Belpaeme",
