@@ -35,7 +35,7 @@ body
 
 #bloc_page
 {
-    width: 900px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -61,7 +61,7 @@ header
 header h1
 {
     font-family: Dayrom, serif;
-    font-size: 2.5em;
+    font-size: 4em;
     font-weight: normal;
 }
 
@@ -74,7 +74,7 @@ header h1
 header h2
 {
     font-family: Dayrom, serif;
-    font-size: 1.1em;
+    font-size: 2em;
     margin-top: 0px;
     font-weight: normal;
 }
@@ -113,20 +113,40 @@ nav a:hover
     border-bottom: 3px solid #760001;
 }
 
-/* Corps */
-
-article, aside
+aside
 {
     display: inline-block;
     text-align: justify;
+	top: 0px;
+	left: 20px;
+    position: relative;
+    width: 300px;
+    min-height: 120px;
+    max-height: auto;
+	background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+/* Corps */
 
 article
 {
+    display: inline-block;
+    text-align: justify;
     min-height: 300px;
     max-height: auto;
 	vertical-align: top;
-    width: 60%;
+    width: 800px;
     margin-right: 15px;
 }
 
@@ -148,69 +168,36 @@ article a:hover
     margin-right: 8px;
 }
 
-article p
-{
-    font-size: 1.em;
-}
-
 article h2
 {
     font-family: Dayrom, serif;
-    font-size: 1.9em;
+    font-size: 2.6em;
     font-weight: normal;
 }
 
 article h3
 {
-   font-family: Dayrom, serif;
-	font-size: 1.5em;
+    font-family: Helvetica, sans-serif;
+	font-size: 1.9em;
 }
 
 article h4
 {
-   font-family: Verdana, Geneva, sans-serif;
-	font-size: 1.0em;
+    font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
 }
 
 article r
 {
-   font-family: Verdana, Geneva, sans-serif;
-   font-size: 0.8em;
+    font-family: Helvetica, sans-serif;
+   font-size: 1.2em;
 }
 
-aside
+article p
 {
-	top: 30px;
-    position: relative;
-    width: 30%;
-    min-height: 120px;
-    max-height: auto;
-	background-color: #706b64;
-    box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
-    padding: 10px;
-    color: white;
-    font-size: 0.9em;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.3em;
 }
-
-#photo_dream
-{
-	max-width: 100%;
-    height: auto;
-    text-align: center;
-    border: 1px solid #181818;
-}
-
-#photo_zozor img
-{
-    border: 1px solid #181818;
-}
-
-aside img
-{
-    margin-right: 5px;
-}
-
 /* Footer */
 
 footer
