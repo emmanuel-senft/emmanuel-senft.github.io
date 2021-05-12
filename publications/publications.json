@@ -1,6 +1,30 @@
 {
     "journals": [
         {
+            "authors": "M. Hagenow, E. Senft, R. Radwin, M. Gleicher, B. Mutlu, M. Zinn",
+            "title": "Corrective Shared Autonomy for Addressing Task Variability.",
+            "journal": "IEEE Robotics and Automation Letters",
+            "year": 2021,
+            "DOI": "https://doi.org/10.1109/LRA.2021.3064500",
+            "pdf_address": "https://reach.wisc.edu/wp-content/uploads/2021/03/Corrective_Shared_Autonomy_compressed.pdf"
+        },
+        {
+            "authors": "N. Céspedes Gómez, B. Irfan, E. Senft, C.A. Cifuentes, L.F. Gutierrez, M. Rincon-Roncancio, T. Belpaeme, M. Munera",
+            "title": "A Socially Assistive Robot for Long-Term Cardiac Rehabilitation in the Real World.",
+            "journal": "Frontiers in Neurorobotics",
+            "year": 2021,
+            "DOI": "https://doi.org/10.3389/fnbot.2021.633248",
+            "pdf_address": "https://www.frontiersin.org/articles/10.3389/fnbot.2021.633248/pdf"
+        },
+        {
+            "authors": "J. Casas, E. Senft, L.F. Gutiérrez, M. Rincón-Rocancio, M. Múnera, T. Belpaeme, C.A. Cifuentes",
+            "title": "Social Assistive Robots: Assessing the Impact of a Training Assistant Robot in Cardiac Rehabilitation.",
+            "journal": "International Journal of Social Robotics",
+            "year": 2020,
+            "DOI": "https://doi.org/10.1007/s12369-020-00708-y",
+            "pdf_address": ""
+        },
+        {
             "authors": "E. Billing , T. Belpaeme, H. Cai, H.-Long Cao, A. Ciocan, C. Costescu, D. David, R. Homewood, D. Hernandez Garcia, P. Gómez Esteban, H. Liu, V. Nair, S. Matu, A. Mazel, M. Selescu, E. Senft, S. Thill, B. Vanderborght, D. Vernon, T. Ziemke",
             "title": "The DREAM Dataset: Supporting a data-driven study of autism spectrum disorder and robot enhanced therapy.",
             "journal": "PLoS ONE 15(8): e0236939",
@@ -14,7 +38,7 @@
             "journal": "Science Robotics 4 (35)",
             "year": 2019,
             "DOI": "http://dx.doi.org/10.1126/scirobotics.aat1186",
-            "pdf_address": "http://robotics.sciencemag.org/cgi/content/full/4/35/eaat1186?ijkey=4K6.n3KNlYM76&keytype=ref&siteid=robotics"
+            "pdf_address": "https://robotics.sciencemag.org/content/robotics/4/35/eaat1186.full.pdf"
         },
         {
             "authors": "CD. Wallbridge, S. Lemaignan, E. Senft, T. Belpaeme",
@@ -77,7 +101,7 @@
             "pdf_address": "https://emmanuel-senft.github.io/papers/2020-ES-HRI.pdf" 
         },
         {
-            "authors": "B. Irfan, N. Céspedes, J. Casas, E. Senft, L. Gutierrez, M. Rincon-Roncancio, M. Munera, T. Belpaeme, C. A Cifuentes Garcia",
+            "authors": "B. Irfan, N. Céspedes, J. Casas, E. Senft, L.F. Gutierrez, M. Rincon-Roncancio, M. Munera, T. Belpaeme, C.A. Cifuentes Garcia",
             "title": "Using a Personalised Socially Assistive Robot for Cardiac Rehabilitation: A Long-Term Case Study",
             "venue": "Proc. 29th IEEE International Conference on Robot and Human Interactive Communication",
             "acronym": "(RO-MAN)",
@@ -127,7 +151,7 @@
             "pdf_address": "https://r4l.epfl.ch/wp-content/uploads/2018/09/paper4.pdf" 
         },
         {
-            "authors": "J. Casas, B. Irfan, E. Senft, L. Gutiérrez, M. Rincon-Roncancio, M. Munera, T. Belpaeme, C. A Cifuentes",
+            "authors": "J. Casas, B. Irfan, E. Senft, L. Gutiérrez, M. Rincon-Roncancio, M. Munera, T. Belpaeme, C.A. Cifuentes",
             "title": "Social Assistive Robot for Cardiac Rehabilitation: A Pilot Study with Patients with Angioplasty",
             "venue": "Companion Proc. 13th ACM/IEEE International Conference on Human-Robot Interaction Extended Abstract",
             "acronym": "(HRI)",
@@ -157,7 +181,7 @@
             "pdf_address": "https://academia.skadge.org/publis/kennedy2017child.pdf" 
         },
         {
-            "authors": "J. Lara, J. Cases, A. Aguirre, M. Munera, M. Rincon-Roncancio, B. Irfan, E. Senft, T. Belpaeme and CA Cifuentes",
+            "authors": "J. Lara, J. Cases, A. Aguirre, M. Munera, M. Rincon-Roncancio, B. Irfan, E. Senft, T. Belpaeme and C.A. Cifuentes",
             "title": "Human-robot sensor interface for cardiac rehabilitation",
             "venue": "Proc. 15th IEEE International Conference on Rehabilitation Robotics",
             "acronym": "(ICORR)",
