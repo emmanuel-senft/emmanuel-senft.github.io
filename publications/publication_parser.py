@@ -20,9 +20,24 @@ def insert_papers(f, papers):
             f.write("                      <a href=\""+j["pdf_address"]+"\" target=\"_blank\">PDF</a>")
         f.write("<br>\n                  </r><hr>\n")
         last_year = year
-    f.write("                  <h3>Conferences and Workshops</h3>\n")
+    f.write("                  <h3>Conferences</h3>\n")
     last_year=0
     for j in papers["conferences"]:
+        year = j["date"].split(" ")[1]
+        if year != last_year:
+            f.write("                    <h4>"+str(year)+":</h4>\n")
+        f.write("                      <r><strong>"+j["title"]+"</strong> <br>\n")
+        f.write("                      "+j["authors"].replace("E. Senft","<strong>E. Senft</strong>")+"<br>\n")
+        f.write("                      "+j["venue"] + " " + j["acronym"] + ", " + j["city"]+ ", " + j["country"]+", "+j["date"]+".<br>\n")
+        if j["pdf_address"] == "":
+            f.write("PDF coming soon")
+        else:
+            f.write("                      <a href=\""+j["pdf_address"]+"\" target=\"_blank\">PDF</a>")
+        f.write("<br>\n                  </r><hr>\n")
+        last_year = year
+    f.write("                  <h3>Workshops and Posters</h3>\n")
+    last_year=0
+    for j in papers["workshops"]:
         year = j["date"].split(" ")[1]
         if year != last_year:
             f.write("                    <h4>"+str(year)+":</h4>\n")

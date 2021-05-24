@@ -111,6 +111,118 @@
             "pdf_address": "https://emmanuel-senft.github.io/papers/2020-IR-ROMAN.pdf" 
         },
         {
+            "authors": "B. Irfan, J. Kennedy, S. Lemaignan, F. Papadopoulos, E. Senft, T. Belpaeme",
+            "title": "Social psychology and Human-Robot Interaction: an Uneasy Marriage",
+            "venue": "Companion Proc. 13th ACM/IEEE International Conference on Human-Robot Interaction",
+            "acronym": "alt.HRI",
+            "country": "USA",
+            "city": "Chicago",
+            "date": "March 2018",
+            "pdf_address": "https://academia.skadge.org/publis/irfan2018social.pdf" 
+        },
+        {
+            "authors": "J. Casas, NC. Gomez, E. Senft, B. Irfan, L.F. Gutiérrez, M. Rincón, M. Múnera, T. Belpaeme, and C.A. Cifuentes",
+            "title": "Architecture for a Social Assistive Robot in Cardiac Rehabilitation",
+            "venue": "Proc. Colombian Conference on Robotics and Automation",
+            "acronym": "(CCRA)",
+            "country": "Barranquilla",
+            "city": "Colombia",
+            "date": "November 2018",
+            "pdf_address": "https://ieeexplore.ieee.org/iel7/8575701/8588111/08588133.pdf" 
+        },
+        {
+            "authors": "J. Kennedy, S. Lemaignan, C. Montassier, P. Lavalade, B. Irfan, F. Papadopoulos, E. Senft and T. Belpaeme",
+            "title": "Child Speech Recognition in Human-Robot Interaction: Evaluations and Recommendations",
+            "venue": "Proc. 12th ACM/IEEE International Conference on Human-Robot Interaction",
+            "acronym": "(HRI)",
+            "country": "Vienna",
+            "city": "Austria",
+            "date": "March 2017",
+            "pdf_address": "https://academia.skadge.org/publis/kennedy2017child.pdf" 
+        },
+        {
+            "authors": "J. Lara, J. Cases, A. Aguirre, M. Munera, M. Rincon-Roncancio, B. Irfan, E. Senft, T. Belpaeme and C.A. Cifuentes",
+            "title": "Human-robot sensor interface for cardiac rehabilitation",
+            "venue": "Proc. 15th IEEE International Conference on Rehabilitation Robotics",
+            "acronym": "(ICORR)",
+            "country": "London",
+            "city": "United Kingdom",
+            "date": "July 2017",
+            "pdf_address": "https://emmanuel-senft.github.io/papers/2017-ES-ICORR.pdf" 
+        },
+        {
+            "authors": "J. Lara, J. Cases, M. Munera, E. Senft, B. Irfan, L. Gutiérrez, T. Belpaeme and C.A. Cifuentes",
+            "title": "Sensor Interface for Cardiac Rehabilitation Monitoring: Pilot Clinical Study",
+            "venue": "IX Congreso Iberoamericano de Tecnologi as de Apoyo a la Discapacidad",
+            "acronym": "(IBERDISCAP)",
+            "country": "Bogotá",
+            "city": "Colombia",
+            "date": "November 2017",
+            "pdf_address": "https://pearl.plymouth.ac.uk/bitstream/handle/10026.1/16703/laraIBERDISCAP2017.pdf?sequence=1&isAllowed=y" 
+        },
+        {
+            "authors": "P. Baxter, J. Kennedy, E. Senft, S. Lemaignan & T. Belpaeme",
+            "title": "From Characterising Three Years of HRI to Methodology and Reporting Recommendations",
+            "venue": "Proc. 11th ACM/IEEE International Conference on Human-Robot Interaction (alt.HRI)",
+            "acronym": "(HRI)",
+            "country": "Christchurch",
+            "city": "New Zealand",
+            "date": "March 2016",
+            "pdf_address": "https://james-kennedy.github.io/publications/BaxterEtAl2016AltHRI.pdf" 
+        },
+        {
+            "authors": "J. Kennedy, P. Baxter, E. Senft & T. Belpaeme",
+            "title": "Social Robot Tutoring for Child Second Language Learning",
+            "venue": "Proc. 11th ACM/IEEE International Conference on Human-Robot Interaction",
+            "acronym": "(HRI)",
+            "country": "Christchurch",
+            "city": "New Zealand",
+            "date": "March 2016",
+            "pdf_address": "https://james-kennedy.github.io/publications/KennedyEtAl2016HRIFull.pdf" 
+        },
+        {
+            "authors": "E. Senft, P. Baxter, J. Kennedy & T. Belpaeme",
+            "title": "SPARC: Supervised Progressively Autonomous Robot Competencies.",
+            "venue": "Proc. 7th International Conference of Social Robotics",
+            "acronym": "(ICSR)",
+            "country": "France",
+            "city": "Paris",
+            "date": "October 2015",
+            "pdf_address": "https://emmanuel-senft.github.io/papers/2015-ES-ICSR.pdf" 
+        },
+        {
+            "authors": "J. Kennedy, P. Baxter, E. Senft & T. Belpaeme",
+            "title": "Higher Nonverbal Immediacy Leads to Greater Learning Gains in Child-Robot Tutoring Interactions.",
+            "venue": "Proc. 7th International Conference of Social Robotics",
+            "acronym": "(ICSR)",
+            "country": "France",
+            "city": "Paris",
+            "date": "October 2015",
+            "pdf_address": "https://james-kennedy.github.io/publications/KennedyEtAl2015ICSR.pdf" 
+        },
+        {
+            "authors": "P. Baxter, S. Matu, E. Senft, C. Costescu, J. Kennedy, D. David, & T. Belpaeme",
+            "title": "Touchscreen-Mediated Child-Robot Interactions Applied to ASD Therapy.",
+            "venue": "Proc. 1st International Conference on Social Robots in Therapy and Education",
+            "acronym": "(New Friends)",
+            "country": "Netherlands",
+            "city": "Almere",
+            "date": "October 2015",
+            "pdf_address": "https://james-kennedy.github.io/publications/Baxter2015NewFriends.pdf" 
+        },
+        {
+            "authors": "M. Vespignani, E. Senft, S. Bonardi, R. Möckel & A. Ijspeert (2013).",
+            "title": "An experimental study on the role of compliant elements on the locomotion of the self-reconfigurable modular robots Roombots.",
+            "venue": "Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems",
+            "acronym": "(IROS)",
+            "country": "Japan",
+            "city": "Tokyo",
+            "date": "November 2013",
+            "pdf_address": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6696974" 
+        }
+    ],
+    "workshops": [
+        {
             "authors": "CD. Wallbridge, S. Lemaignan, E. Senft, T. Belpaeme",
             "title": "Towards Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous",
             "venue": "Companion Proc. 14th ACM/IEEE International Conference on Human-Robot Interaction Extended Abstract",
@@ -129,16 +241,6 @@
             "city": "Spain",
             "date": "October 2018",
             "pdf_address": "http://wp.doc.ic.ac.uk/bbl/wp-content/uploads/sites/91/2018/09/HRML2018_paper_10.pdf" 
-        },
-        {
-            "authors": "B. Irfan, J. Kennedy, S. Lemaignan, F. Papadopoulos, E. Senft, T. Belpaeme",
-            "title": "Social psychology and Human-Robot Interaction: an Uneasy Marriage",
-            "venue": "Companion Proc. 13th ACM/IEEE International Conference on Human-Robot Interaction",
-            "acronym": "alt.HRI",
-            "country": "USA",
-            "city": "Chicago",
-            "date": "March 2018",
-            "pdf_address": "https://academia.skadge.org/publis/irfan2018social.pdf" 
         },
         {
             "authors": "E. Senft, S. Lemaignan, M. Bartlett, P. Baxter, T. Belpaeme",
@@ -161,6 +263,16 @@
             "pdf_address": "https://www.researchgate.net/profile/Tony_Belpaeme/publication/323668453_Social_Assistive_Robot_for_Cardiac_Rehabilitation_A_Pilot_Study_with_Patients_with_Angioplasty/links/5aaf7a5e0f7e9b4897c08030/Social-Assistive-Robot-for-Cardiac-Rehabilitation-A-Pilot-Study-with-Patients-with-Angioplasty.pdf " 
         },
         {
+            "authors": "J. Casas, B. Irfan, E. Senft, L.F. Gutiérrez, M. Rincon-Roncancio, M. Munera, T. Belpaeme, C.A. Cifuentes",
+            "title": "Towards a SAR System for Personalized Cardiac Rehabilitation: A Patient with PCI",
+            "venue": "Companion Proc. 13th ACM/IEEE International Conference on Human-Robot Interaction Extended Abstract",
+            "acronym": "(HRI)",
+            "country": "USA",
+            "city": "Chicago",
+            "date": "March 2018",
+            "pdf_address": "https://pearl.plymouth.ac.uk/bitstream/handle/10026.1/16701/prec.pdf?sequence=1&isAllowed=y" 
+        },
+        {
             "authors": "E. Senft, S. Lemaignan, P. Baxter and T. Belpaeme",
             "title": "Toward Supervised Reinforcement Learning with Partial States for Social HRI",
             "venue": "4th AAAI FSS on Artificial Intelligence for Social Human-Robot Interaction",
@@ -169,26 +281,6 @@
             "city": "USA",
             "date": "November 2017",
             "pdf_address": "https://emmanuel-senft.github.io/papers/2017-ES-AI_HRI.pdf" 
-        },
-        {
-            "authors": "J. Kennedy, S. Lemaignan, C. Montassier, P. Lavalade, B. Irfan, F. Papadopoulos, E. Senft and T. Belpaeme",
-            "title": "Child Speech Recognition in Human-Robot Interaction: Evaluations and Recommendations",
-            "venue": "Proc. 12th ACM/IEEE International Conference on Human-Robot Interaction",
-            "acronym": "(HRI)",
-            "country": "Vienna",
-            "city": "Austria",
-            "date": "March 2017",
-            "pdf_address": "https://academia.skadge.org/publis/kennedy2017child.pdf" 
-        },
-        {
-            "authors": "J. Lara, J. Cases, A. Aguirre, M. Munera, M. Rincon-Roncancio, B. Irfan, E. Senft, T. Belpaeme and C.A. Cifuentes",
-            "title": "Human-robot sensor interface for cardiac rehabilitation",
-            "venue": "Proc. 15th IEEE International Conference on Rehabilitation Robotics",
-            "acronym": "(ICORR)",
-            "country": "London",
-            "city": "United Kingdom",
-            "date": "July 2017",
-            "pdf_address": "https://emmanuel-senft.github.io/papers/2017-ES-ICORR.pdf" 
         },
         {
             "authors": "E. Senft, S. Lemaignan, P. Baxter & T. Belpaeme",
@@ -221,26 +313,6 @@
             "pdf_address": "https://emmanuel-senft.github.io/papers/2016-ES-HRI_LBR.pdf" 
         },
         {
-            "authors": "P. Baxter, J. Kennedy, E. Senft, S. Lemaignan & T. Belpaeme",
-            "title": "From Characterising Three Years of HRI to Methodology and Reporting Recommendations",
-            "venue": "Proc. 11th ACM/IEEE International Conference on Human-Robot Interaction (alt.HRI)",
-            "acronym": "(HRI)",
-            "country": "Christchurch",
-            "city": "New Zealand",
-            "date": "March 2016",
-            "pdf_address": "https://james-kennedy.github.io/publications/BaxterEtAl2016AltHRI.pdf" 
-        },
-        {
-            "authors": "J. Kennedy, P. Baxter, E. Senft & T. Belpaeme",
-            "title": "Social Robot Tutoring for Child Second Language Learning",
-            "venue": "Proc. 11th ACM/IEEE International Conference on Human-Robot Interaction",
-            "acronym": "(HRI)",
-            "country": "Christchurch",
-            "city": "New Zealand",
-            "date": "March 2016",
-            "pdf_address": "https://james-kennedy.github.io/publications/KennedyEtAl2016HRIFull.pdf" 
-        },
-        {
             "authors": "J. Kennedy, P. Baxter, E. Senft & T. Belpaeme",
             "title": "Heart vs Hard Drive: Children Learn More From a Human Tutor Than a Social Robot",
             "venue": "Proc. 11th ACM/IEEE International Conference on Human-Robot Interaction Extended Abstract",
@@ -259,26 +331,6 @@
             "city": "New Zealand",
             "date": "March 2016",
             "pdf_address": "https://james-kennedy.github.io/publications/Wills2016HRILBR.pdf" 
-        },
-        {
-            "authors": "E. Senft, P. Baxter, J. Kennedy & T. Belpaeme",
-            "title": "SPARC: Supervised Progressively Autonomous Robot Competencies.",
-            "venue": "Proc. 7th International Conference of Social Robotics",
-            "acronym": "(ICSR)",
-            "country": "France",
-            "city": "Paris",
-            "date": "October 2015",
-            "pdf_address": "https://emmanuel-senft.github.io/papers/2015-ES-ICSR.pdf" 
-        },
-        {
-            "authors": "J. Kennedy, P. Baxter, E. Senft & T. Belpaeme",
-            "title": "Higher Nonverbal Immediacy Leads to Greater Learning Gains in Child-Robot Tutoring Interactions.",
-            "venue": "Proc. 7th International Conference of Social Robotics",
-            "acronym": "(ICSR)",
-            "country": "France",
-            "city": "Paris",
-            "date": "October 2015",
-            "pdf_address": "https://james-kennedy.github.io/publications/KennedyEtAl2015ICSR.pdf" 
         },
         {
             "authors": "Kennedy, J., Baxter, P., Senft, E., & Belpaeme, T.",
@@ -301,16 +353,6 @@
             "pdf_address": "https://james-kennedy.github.io/publications/Baxter2015WONDER_RobotsInClassroom.pdf" 
         },
         {
-            "authors": "P. Baxter, S. Matu, E. Senft, C. Costescu, J. Kennedy, D. David, & T. Belpaeme",
-            "title": "Touchscreen-Mediated Child-Robot Interactions Applied to ASD Therapy.",
-            "venue": "Proc. 1st International Conference on Social Robots in Therapy and Education",
-            "acronym": "(New Friends)",
-            "country": "Netherlands",
-            "city": "Almere",
-            "date": "October 2015",
-            "pdf_address": "https://james-kennedy.github.io/publications/Baxter2015NewFriends.pdf" 
-        },
-        {
             "authors": "E. Senft, P. Baxter & T. Belpaeme (2015)",
             "title": "Human-Guided Learning of Social Action Selection for Robot-Assisted Therapy.",
             "venue": "Proc. 4th Workshop on Machine Learning for Interactive Systems at ICML",
@@ -329,17 +371,8 @@
             "city": "Portland (OR)",
             "date": "March 2015",
             "pdf_address": "http://dx.doi.org/10.1145/2701973.2702715" 
-        },
-        {
-            "authors": "M. Vespignani, E. Senft, S. Bonardi, R. Möckel & A. Ijspeert (2013).",
-            "title": "An experimental study on the role of compliant elements on the locomotion of the self-reconfigurable modular robots Roombots.",
-            "venue": "Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems",
-            "acronym": "(IROS)",
-            "country": "Japan",
-            "city": "Tokyo",
-            "date": "November 2013",
-            "pdf_address": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6696974" 
         }
+    
     ]
 }
 
