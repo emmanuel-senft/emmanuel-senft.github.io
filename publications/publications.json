@@ -1,6 +1,30 @@
 {
     "journals": [
         {
+            "authors": "E. Senft*, K. Winkle*, S. Lemaignan (* shared fist-authorship)",
+            "title": "LEADOR: A Method for End-to-End Participatory Design of Autonomous Social Robots.",
+            "journal": "arXiv",
+            "year": 2021,
+            "DOI": "",
+            "pdf_address": "https://arxiv.org/pdf/2105.01910"
+        },
+        {
+            "authors": "P. Bhat, E. Senft, M. Zinn, M. Gleicher, B. Mutlu, R. Cook, R. Radwin",
+            "title": "Assessing Limited Visibility Feedback for Overhead Manufacturing Assembly Tasks.",
+            "journal": "Applied Ergonomics",
+            "year": 2021,
+            "DOI": "https://doi.org/10.1016/j.apergo.2021.103531",
+            "pdf_address": "https://graphics.cs.wisc.edu/Papers/2021/BSZGMC21/Bhat%20et%20al%202021%20Rev%202.pdf"
+        },
+        {
+            "authors": "M. Hagenow, E. Senft, R. Radwin, M. Gleicher, B. Mutlu, M. Zinn",
+            "title": "Informing Real-time Corrections in Corrective Shared Autonomy Through Expert Demonstrations.",
+            "journal": "IEEE Robotics and Automation Letters",
+            "year": 2021,
+            "DOI": "https://doi.org/10.1109/LRA.2021.3094480",
+            "pdf_address": "https://graphics.cs.wisc.edu/Papers/2021/HSRGMZ21a/2107.04836.pdf"
+        },
+        {
             "authors": "M. Hagenow, E. Senft, R. Radwin, M. Gleicher, B. Mutlu, M. Zinn",
             "title": "Corrective Shared Autonomy for Addressing Task Variability.",
             "journal": "IEEE Robotics and Automation Letters",
@@ -30,7 +54,7 @@
             "journal": "PLoS ONE 15(8): e0236939",
             "year": 2020,
             "DOI": "https://doi.org/10.1371/journal.pone.0236939",
-            "pdf_address": ""
+            "pdf_address": "https://emmanuel-senft.github.io/papers/2020-EB-PLOS.pdf"
         },
         {
             "authors": "E. Senft, S. Lemaignan, PE. Baxter, M. Bartlett, T. Belpaeme",
@@ -90,6 +114,16 @@
         }
     ],
     "conferences": [
+        {
+            "authors": "E. Senft, M. Hagenow, R. Radwin, M. Zinn, M. Gleicher, B. Mutlu",
+            "title": "Situated Live Programming for Human-Robot Collaboration",
+            "venue": "Accepted at the 33rd Annual ACM Symposium on User Interface Software and Technology",
+            "acronym": "(UIST)",
+            "country": "Virtual event",
+            "city": "",
+            "date": "October 2021",
+            "pdf_address": "https://arxiv.org/pdf/2108.03592" 
+        },
         {
             "authors": "E. Senft, S. Satake, T. Kanda",
             "title": "Would You Mind Me if I Pass by You? Socially-Appropriate Behaviour for an Omni-based Social Robot in Narrow Environment",
