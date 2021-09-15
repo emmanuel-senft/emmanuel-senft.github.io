@@ -1,9 +1,17 @@
 {
     "journals": [
         {
+            "authors": "E. Senft, M. Hagenow, K. Welsh, R. Radwin, M. Zinn, M. Gleicher, B. Mutlu",
+            "title": "Task-Level Authoring for Remote Robot Teleoperation.",
+            "journal": "Accepted in Frontiers in Robotics and AI",
+            "year": 2021,
+            "DOI": "",
+            "pdf_address": "https://arxiv.org/abs/2109.02301"
+        },
+        {
             "authors": "E. Senft*, K. Winkle*, S. Lemaignan (* shared fist-authorship)",
             "title": "LEADOR: A Method for End-to-End Participatory Design of Autonomous Social Robots.",
-            "journal": "arXiv",
+            "journal": "Accepted in Frontiers in Robotics and AI",
             "year": 2021,
             "DOI": "",
             "pdf_address": "https://arxiv.org/pdf/2105.01910"
