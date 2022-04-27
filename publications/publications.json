@@ -1,20 +1,28 @@
 {
     "journals": [
         {
+            "authors": "B. Ramesh, A. Konstant, P. Pravenna, E. Senft, M. Gleicher, B. Mutlu, M. Zinn, R.G. Radwin",
+            "title": "Manually Acquiring Targets from Multiple Viewpoints Using Video Feedback.",
+            "journal": "Accepted in Human Factors",
+            "year": 2022,
+            "DOI": "",
+            "pdf_address": "https://arxiv.org/pdf/2204.06969"
+        },
+        {
             "authors": "E. Senft, M. Hagenow, K. Welsh, R. Radwin, M. Zinn, M. Gleicher, B. Mutlu",
             "title": "Task-Level Authoring for Remote Robot Teleoperation.",
-            "journal": "Accepted in Frontiers in Robotics and AI",
+            "journal": "Frontiers in Robotics and AI",
             "year": 2021,
-            "DOI": "",
-            "pdf_address": "https://arxiv.org/abs/2109.02301"
+            "DOI": "https://doi.org/10.3389/frobt.2021.707149",
+            "pdf_address": "https://www.frontiersin.org/articles/10.3389/frobt.2021.707149/pdf"
         },
         {
             "authors": "E. Senft*, K. Winkle*, S. Lemaignan (* shared fist-authorship)",
             "title": "LEADOR: A Method for End-to-End Participatory Design of Autonomous Social Robots.",
             "journal": "Accepted in Frontiers in Robotics and AI",
             "year": 2021,
-            "DOI": "",
-            "pdf_address": "https://arxiv.org/pdf/2105.01910"
+            "DOI": "https://doi.org/10.3389/frobt.2021.704119",
+            "pdf_address": "https://www.frontiersin.org/articles/10.3389/frobt.2021.704119/pdf"
         },
         {
             "authors": "P. Bhat, E. Senft, M. Zinn, M. Gleicher, B. Mutlu, R. Cook, R. Radwin",
@@ -122,6 +130,16 @@
         }
     ],
     "conferences": [
+        {
+            "authors": "P. Praveena, L. Molina, Y. Wang, E. Senft, B. Mutlu, M. Gleicher",
+            "title": "Understanding Control Frames in Multi-Camera Robot Telemanipulation",
+            "venue": "Proc. 17th ACM/IEEE International Conference on Human-Robot Interaction",
+            "acronym": "(HRI)",
+            "country": "Virtual event",
+            "city": "",
+            "date": "March 2022",
+            "pdf_address": "https://graphics.cs.wisc.edu/Papers/2022/PMWSMG22/pmwsmg.pdf" 
+        },
         {
             "authors": "E. Senft, M. Hagenow, R. Radwin, M. Zinn, M. Gleicher, B. Mutlu",
             "title": "Situated Live Programming for Human-Robot Collaboration",
@@ -307,7 +325,7 @@
         {
             "authors": "J. Casas, B. Irfan, E. Senft, L.F. Gutiérrez, M. Rincon-Roncancio, M. Munera, T. Belpaeme, C.A. Cifuentes",
             "title": "Towards a SAR System for Personalized Cardiac Rehabilitation: A Patient with PCI",
-            "venue": "Companion Proc. 13th ACM/IEEE International Conference on Human-Robot Interaction Extended Abstract",
+            "venue": "Workshop on Human-Robot Interaction Personal Robots for Exercising and Coaching workshop at HRI",
             "acronym": "(HRI)",
             "country": "USA",
             "city": "Chicago",
