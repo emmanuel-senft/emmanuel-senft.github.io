@@ -131,6 +131,26 @@
     ],
     "conferences": [
         {
+            "authors": "E. Senft*, M. Hagenow*, P. Praveena, R. Radwin, M. Zinn, M. Gleicher, B. Mutlu (* shared fist-authorship)",
+            "title": "A Method For Automated Drone Viewpoints to Support Remote Robot Manipulation",
+            "venue": "Accepted at the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+            "acronym": "(HRI)",
+            "country": "Japan",
+            "city": "Kyoto",
+            "date": "October 2022",
+            "pdf_address": "https://arxiv.org/pdf/2208.04391" 
+        },
+        {
+            "authors": "M. Hagenow, E. Senft, E. Laske, K. Hambuchen, T. Fong, R. Radwin, M. Gleicher, B. Mutlu, M. Zinn",
+            "title": "Registering Articulated Objects With Human-in-the-loop Corrections",
+            "venue": "Accepted at the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+            "acronym": "(HRI)",
+            "country": "Japan",
+            "city": "Kyoto",
+            "date": "October 2022",
+            "pdf_address": "https://arxiv.org/pdf/2203.06018" 
+        },
+        {
             "authors": "P. Praveena, L. Molina, Y. Wang, E. Senft, B. Mutlu, M. Gleicher",
             "title": "Understanding Control Frames in Multi-Camera Robot Telemanipulation",
             "venue": "Proc. 17th ACM/IEEE International Conference on Human-Robot Interaction",
