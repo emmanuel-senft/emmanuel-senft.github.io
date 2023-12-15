@@ -1,146 +1,246 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127162467-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', 'UA-127162467-1');
-	</script>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
-        <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <title>Emmanuel Senft</title>
-		<link rel="shortcut icon" href="images/icon.ico">
-    </head>
-    
-    <!--[if IE 6 ]><body class="ie6 old_ie"><![endif]-->
-    <!--[if IE 7 ]><body class="ie7 old_ie"><![endif]-->
-    <!--[if IE 8 ]><body class="ie8"><![endif]-->
-    <!--[if IE 9 ]><body class="ie9"><![endif]-->
-    <!--[if !IE]><!--><body><!--<![endif]-->
-        <div id="bloc_page">
-            <header>
-                <div id="titre_principal">
-                    <h1>Emmanuel Senft </h1>
-                    <h2>Researcher in Human-Robot Interaction</h2>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="research.html">Research</a></li>
-                            <!-- <li><a href="professional.html">Professional</a></li> -->
-                            <li><a href="media.html">Media</a></li>
-                            <li><a href="publication.html">Publications</a></li>
-                            <li><a href="cv.pdf" target="_blank">CV</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <aside>
-                    <p><img id="photo_dream" src="images/general.jpg" alt="Example of interaction using SPARC" class="center"/></p>
-                </aside>
-            </header>
-            
-           
-            <section>
-                <article>
-                    <h2>Research</h2>
+<head>
+	<title>Prologue by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-                    <h3>Natural interfaces for robotic autonomy</h3>                    
-                    <p>My last research took place in the NASA ULI <a href="https://techport.nasa.gov/view/96115">Effective Human-Robot Teaming to Advance Aviation Manufacturing</a> project where we 
-                        <!-- Currently, aircraft manufacturing is made by a collections of process which are either (a) highly manual and create strong ergonomic issues for workers or (b) highly automated with gigantic machines which are extremely precise and efficient, but not flexible.
-                        The goal of this project is to --> develop new flexible automation paradigms based on Human-Robot collaboration for aircraft manufacturing. With these systems, we will profit both from the robots' ability to realize repetitive and streneous tasks, and the human flexibility to detect what can be done and if the process is success. 
-                    </p>
-                    <p> I am the postdoc on this project, and my role is to coordinate and integrate work from a team of grad students and project assistants. 
-                        On top of this integration work, I research new interfaces and workflows to allow for flexible authoring of rich robotic behaviors by shop floor workers.
-                    </p>
-                    
-                    <p>In Situ Live Programming for Human-Robot Collaboration (published at UIST 2021)</p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uQCptZvWDug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </p>
-                    <p>High-level remote teleoperation of robots (published in Frontiers in Robotics and AI)</p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JuL1NF6F3FU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </p>
+<body class="is-preload">
 
-                    <h3>Mechanisms for polite navigation</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wPnGHM_edk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
-                    <p>This project explored how robot should cross people in narrow corridors, specifically when there is not enough space for crossing and the human and the robot have to be close to each other. 
-                        Results from our study showed that having the robot stopping on the side or moving forward had limited impact on the human. 
-                        However, adding a rotation of the robot when crossing the person was rated as warmer and more likeable. Full paper available <a href="https://emmanuel-senft.github.io/papers/2020-ES-HRI.pdf">here</a>.</p>
-                    </p>
-                    
-                    <h3>Learning social strategies in teaching</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wG-AYmgJpds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<!-- Header -->
+	<div id="header">
 
-                    <p>To teach robots to interact with humans, during my PhD, I developed with my supervisors <a href="https://emmanuel-senft.github.io/papers/2015-ES-ICSR.pdf">SPARC</a> (for Supervised Progressively Autonomous Robot Competencies), a learning paradigm to teach robots policies in real world interactions. 
-                        SPARC uses interactive machine learning and keeps a human in the action selection loop to ensure that each action executed by the robot is correct even in the early stages of the learning. 
-                        SPARC relies on a selection/suggestion/correction mechanism whereby the human can select actions for the robot, the robot can suggest an action to the human who can either passively accept the action and let it be executed after a small delay or prevent it. 
-                        This allow to rely importantly on the human at the start of the interaction when the robot is still learning how to interact. Then, as the robot improves its policy, its autonomy can increase, thus reducing need for the human to select actions for the robot. 
-                        The main outcome of the research can be found <a href="https://robotics.sciencemag.org/content/4/35/eaat1186">here</a>.
-                    </p>
-                    
-                    <h3>Robotic-Enhanced Therapy for Children with Autism</h3>
-                    <img src="images/asd.png" alt="Robotic-Enhanced Therapy for Children with Autism" width="560">
-                    <p> The <a href="http://dream2020.eu/">DREAM Project</a> was a large scale EU FT7 project exploring how we could use supervised autonomy to enhance Robot-Assisted Therapies for children with autism spectrum disorder. 
-                        The goal of this project was twofold: (a) create a robust architecture for the robot allowing the robot to follow autonomous therapeutical scripts, reacting to the child's behavior in the context of and ABA therapy (b) use this system to perform the first large scale (N>50), long term study (over months) study comparing RET and standard ABA therapies for children with ASD.
-                        My role in the project was to implement a large part of the robot control architecture, and one of the key element of our system was to use a therapist to implicitly validate each of the robot's action. 
-                        This allowed the therapist to preemptively correct the robot's actions in the case of a sensor failure, or child unexpected behavior, while no having to fully teleoperate the robot as a classic Wizard-of-Oz paradigm. 
-                        The main paper describing our approach can be found <a href="https://www.degruyter.com/view/journals/pjbr/8/1/article-p18.xml">here</a>, and the general outcomes of the project will be published soon.
-                    </p>
-                    
-                    <h3>Long-Term Human-Robot Interaction for Cardiac Rehabilitation</h3>
-                    <img src="images/cardiac.jpg" alt="Long-Term Interaction for Cardiac Rehabilitation" width="560">
-                    <p> This project is a collaboration between our team in the University of Plymouth and the Marcela Munera and Carlos A. Cifuentes in Colombian School of Engineering Julio Garavito focused on how Socially Assistive Robots could help patients to adhere better to a cardiac rehabilitation. 
-                        The main question of this project was to found out factors or information that the robot could use to help motivate patient with the rehabilitation through continual monitoring, social feedback and personalization. 
-                        Additional information can be found <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8588133">here</a>, full results are under review.
-                    </p>
-					<!--<p>This approach has been developed as part of the <a href="http://dream2020.eu/">DREAM Project</a> which seeks to develop new Robot-Enhanced Therapies for children with ASD. In this context, a therapist would start to control the robot in a Wizard of Oz-like fashion (the robot being maily tele-operated) and as the algorithm learns the therapist’s desire, the robot is making more appropriate suggestions which can be simply passively accepted reducing the workload on the therapist over time. This would allow robots to be used in therapies more easily, without requiring important involvement of technical staff to control the robot. SPARC has been applied to the context of tutor robots, supporting children in a learning task. In my last study, a robot was taught by a psychology student to interact with children. Results showed that SPARC made the learning process safe and efficient, and that the resulting autonomous behaviour led to an autonomous behaviour similar to the one displayed when the robot was supervised by the teacher.
-					</p>
-					<p>SPARC has been developed with the Robot Enhanced Therapy scenario in mind, but is applicable to a wider range of uses, such as an assistant at home which would learn from its user their desires and would find way to inform them about action about to be executed without having the human to correct them a posteriori or in education where a teacher could design its own teaching assistant to interact as tutor with the children.
-					</p>
+		<div class="top">
 
-                    <p>My PhD was funded by the EU FP7 <a href="http://dream2020.eu/">DREAM Project</a>, which aims to develop new Robot-Enhanced Therapies for children with Autism Spectrum Disorder.</p>
-                    <p>My main scientific interest is a curiosity about how intelligence works and how we can make robots more intelligent. I want to discover how robots can learn rich behaviours required to complete complex tasks in the real world. One example of such a task is interaction with humans, I want to find ways to enable robots to learn social behaviours adapted to HRI. In my current research, I explore how human teachers can support this learning by providing feedback and demonstrations, making the robot learning safer and faster. Consequently, my research lies at the intersection between Human-Robot Interaction, Interactive Machine Learning and Learning from Demonstrations.</p>-->
-                <h3>Collaborators</h3>
-                <p>I am currently (or have been) working with:<br>
-                    <a href="https://calinon.ch/">Dr. Sylvain Calinon</a><br>
-                    <a href="https://www.idiap.ch/~odobez/">Dr. Jean-Marc Odobez</a><br>
-                    <a href="http://pages.cs.wisc.edu/~bilge/">Prof. Bilge Mutlu</a><br>
-                    <a href="http://pages.cs.wisc.edu/~gleicher/">Prof. Michael Gleicher</a><br>
-                    <a href="https://www.hageneaux.com/">Michael Hagenow</a><br>
-                    <a href="https://www.laurastegner.com/">Laura Stegner</a><br>
-                    <a href="http://pragathip.github.io/">Pragathi Praveena</a><br>
-                    <a href="https://www.linkedin.com/in/andrewjschoen/">Andrew Schoen</a><br>
-                    <a href="https://dporfirio.github.io/">David Portfirio</a><br>
-                    Kevin Welsh<br>
-                    <a href="https://www.linkedin.com/in/prajna-m/">Prajna Bhat</a><br>
-                    Luis Molina<br>
-                    <a href="https://www.linkedin.com/in/titus-smith-827534193/">Titus Smith</a><br>
-                    <a href="https://www.linkedin.com/in/anna-konstant-99930194/">Anna Konstant</a><br>
-                    <a href="https://www.robot.soc.i.kyoto-u.ac.jp/author/kanda">Prof. Takayuki Kanda</a><br>
-                    <a href="https://irc.atr.jp/~satoru/">Dr. Satoru Satake</a><br>
-                    <a href="http://tonybelpaeme.me/">Prof. Tony Belpaeme</a><br>
-                    <a href="http://paul-baxter.github.io/">Dr. Paul Baxter</a><br>
-                    <a href="http://academia.skadge.org/">Prof. Séverin Lemaignan</a><br>
-                    <a href="https://james-kennedy.github.io/">James Kennedy</a><br>
-                    <a href="https://www.baharirfan.com/">Bahar İrfan</a><br>
-                    Christopher Wallbridge<br>
-                    Daniel Hernandez Garcia<br>
-                    Madeleine Bartlett<br>
-                    <a href="http://www.cognovo.eu/people/research-fellows/thomas-r-colin.php">Thomas Colin</a><br>
-                    <a href="http://dream2020.eu/">DREAM Project</a><br>
-                    <a href="https://www.plymouth.ac.uk/research/robotics-neural-systems">Centre for Robotics and Neural Systems</a><br>
-                </article>
-            </section>
-            
-            <footer>
+			<!-- Logo -->
+			<div id="logo">
+				<span class="image avatar48"><img src="images/portrait-idiap square.jpg" alt="" /></span>
+				<h1 id="title">Emmanuel Senft</h1>
+				<p>Research Scientist, Idiap</p>
+			</div>
 
-            </footer>
-        </div>
-    </body>
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+					<li><a href="research.html" id="top-link"><span class="icon solid fa-th">Research</span></a></li>
+					<li><a href="media.html" id="top-link"><span class="icon solid fa-newspaper">Media</span></a></li>
+					<li><a href="publications.html" id="top-link"><span
+								class="icon solid fa-file">Publications</span></a></li>
+					<li><a href="cv.pdf" id="top-link"><span class="icon solid fa-user">CV</span></a></li>
+					<!-- <li><a href="index.html#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+							<li><a href="page2.html#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+							<li><a href="index.html#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li> -->
+				</ul>
+			</nav>
+
+		</div>
+
+		<div class="bottom">
+
+			<!-- Social Icons -->
+			<ul class="icons">
+				<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+				<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+				<li><a href="https://ch.linkedin.com/in/emmanuel-senft-a4853251" class="icon brands fa-linkedin"><span
+							class="label">Linkedin</span></a></li>
+				<li><a href="https://scholar.google.fr/citations?user=Yw1tGf4AAAAJ&hl=en"
+						class="icon brands fa-google-scholar"><span class="label">Scholar</span></a></li>
+				<li><a href="https://orcid.org/0000-0001-7160-4352" class="icon brands fa-orcid"><span
+							class="label">orcid</span></a></li>
+				<li><a href="https://github.com/emmanuel-senft" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+				<li><a href="mailto:esenft@idiap.ch" class="icon solid fa-envelope"><span class="label">Email</span></a>
+				</li>
+			</ul>
+
+		</div>
+
+	</div>
+
+
+	<!-- Main -->
+	<div id="main">
+		<!-- Portfolio -->
+		<section id="research" class="two">
+			<header>
+				<h2>Research</h2>
+			</header>
+		</section>
+		<section id="research" class="three">
+			<h3>Natural interfaces for robotic autonomy</h3>
+			<p>My last research took place in the NASA ULI <a href="https://techport.nasa.gov/view/96115">Effective
+					Human-Robot Teaming to Advance Aviation Manufacturing</a> project where we
+				<!-- Currently, aircraft manufacturing is made by a collections of process which are either (a) highly manual and create strong ergonomic issues for workers or (b) highly automated with gigantic machines which are extremely precise and efficient, but not flexible.
+							The goal of this project is to --> develop new flexible automation paradigms based on Human-Robot collaboration
+				for aircraft manufacturing. With these systems, we will profit both from the robots' ability to realize
+				repetitive and streneous tasks, and the human flexibility to detect what can be done and if the process
+				is success.
+			</p>
+			<p> I was postdoc on this project, and my role is to coordinate and integrate work from a team of grad
+				students and project assistants.
+				On top of this integration work, I research new interfaces and workflows to allow for flexible authoring
+				of rich robotic behaviors by shop floor workers.
+			</p>
+			<p><b>In Situ Live Programming for Human-Robot Collaboration (published at UIST 2021)</b></p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/uQCptZvWDug"
+				title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+			</p>
+			<p><b>High-level remote teleoperation of robots (published in Frontiers in Robotics and AI)</b></p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/JuL1NF6F3FU"
+				title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+			</p>
+		</section>
+		<section id="research" class="two">
+			<h3>Mechanisms for polite navigation</h3>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/wPnGHM_edk4" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+
+			<p>This project explored how robot should cross people in narrow corridors, specifically when there is not
+				enough space for crossing and the human and the robot have to be close to each other.
+				Results from our study showed that having the robot stopping on the side or moving forward had limited
+				impact on the human.
+				However, adding a rotation of the robot when crossing the person was rated as warmer and more likeable.
+				Full paper available <a href="https://emmanuel-senft.github.io/papers/2020-ES-HRI.pdf">here</a>.</p>
+			</p>
+		</section>
+		<section id="research" class="three">
+			<h3>Learning social strategies in teaching</h3>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/wG-AYmgJpds"
+				title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+
+			<p>To teach robots to interact with humans, during my PhD, I developed with my supervisors <a
+					href="https://emmanuel-senft.github.io/papers/2015-ES-ICSR.pdf">SPARC</a> (for Supervised
+				Progressively Autonomous Robot Competencies), a learning paradigm to teach robots policies in real world
+				interactions.
+				SPARC uses interactive machine learning and keeps a human in the action selection loop to ensure that
+				each action executed by the robot is correct even in the early stages of the learning.
+				SPARC relies on a selection/suggestion/correction mechanism whereby the human can select actions for the
+				robot, the robot can suggest an action to the human who can either passively accept the action and let
+				it be executed after a small delay or prevent it.
+				This allow to rely importantly on the human at the start of the interaction when the robot is still
+				learning how to interact. Then, as the robot improves its policy, its autonomy can increase, thus
+				reducing need for the human to select actions for the robot.
+				The main outcome of the research can be found <a
+					href="https://robotics.sciencemag.org/content/4/35/eaat1186">here</a>.
+			</p>
+
+		</section>
+		<section id="research" class="two">
+			<h3>Robotic-Enhanced Therapy for Children with Autism</h3>
+			<img src="images/asd.png" alt="Robotic-Enhanced Therapy for Children with Autism" width="560">
+			<p> The <a href="http://dream2020.eu/">DREAM Project</a> was a large scale EU FT7 project exploring how we
+				could use supervised autonomy to enhance Robot-Assisted Therapies for children with autism spectrum
+				disorder.
+				The goal of this project was twofold: (a) create a robust architecture for the robot allowing the robot
+				to follow autonomous therapeutical scripts, reacting to the child's behavior in the context of and ABA
+				therapy (b) use this system to perform the first large scale (N>50), long term study (over months) study
+				comparing RET and standard ABA therapies for children with ASD.
+				My role in the project was to implement a large part of the robot control architecture, and one of the
+				key element of our system was to use a therapist to implicitly validate each of the robot's action.
+				This allowed the therapist to preemptively correct the robot's actions in the case of a sensor failure,
+				or child unexpected behavior, while no having to fully teleoperate the robot as a classic Wizard-of-Oz
+				paradigm.
+				The main paper describing our approach can be found <a
+					href="https://www.degruyter.com/view/journals/pjbr/8/1/article-p18.xml">here</a>, and the general
+				outcomes of the project will be published soon.
+			</p>
+
+		</section>
+		<section id="research" class="three">
+			<h3>Long-Term Human-Robot Interaction for Cardiac Rehabilitation</h3>
+			<img src="images/cardiac.jpg" alt="Long-Term Interaction for Cardiac Rehabilitation" width="560">
+			<p> This project is a collaboration between our team in the University of Plymouth and the Marcela Munera
+				and Carlos A. Cifuentes in Colombian School of Engineering Julio Garavito focused on how Socially
+				Assistive Robots could help patients to adhere better to a cardiac rehabilitation.
+				The main question of this project was to found out factors or information that the robot could use to
+				help motivate patient with the rehabilitation through continual monitoring, social feedback and
+				personalization.
+				Additional information can be found <a
+					href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8588133">here</a>, full results are under
+				review.
+			</p>
+			<!--<p>This approach has been developed as part of the <a href="http://dream2020.eu/">DREAM Project</a> which seeks to develop new Robot-Enhanced Therapies for children with ASD. In this context, a therapist would start to control the robot in a Wizard of Oz-like fashion (the robot being maily tele-operated) and as the algorithm learns the therapist’s desire, the robot is making more appropriate suggestions which can be simply passively accepted reducing the workload on the therapist over time. This would allow robots to be used in therapies more easily, without requiring important involvement of technical staff to control the robot. SPARC has been applied to the context of tutor robots, supporting children in a learning task. In my last study, a robot was taught by a psychology student to interact with children. Results showed that SPARC made the learning process safe and efficient, and that the resulting autonomous behaviour led to an autonomous behaviour similar to the one displayed when the robot was supervised by the teacher.
+						</p>
+						<p>SPARC has been developed with the Robot Enhanced Therapy scenario in mind, but is applicable to a wider range of uses, such as an assistant at home which would learn from its user their desires and would find way to inform them about action about to be executed without having the human to correct them a posteriori or in education where a teacher could design its own teaching assistant to interact as tutor with the children.
+						</p>
+
+						<p>My PhD was funded by the EU FP7 <a href="http://dream2020.eu/">DREAM Project</a>, which aims to develop new Robot-Enhanced Therapies for children with Autism Spectrum Disorder.</p>
+						<p>My main scientific interest is a curiosity about how intelligence works and how we can make robots more intelligent. I want to discover how robots can learn rich behaviours required to complete complex tasks in the real world. One example of such a task is interaction with humans, I want to find ways to enable robots to learn social behaviours adapted to HRI. In my current research, I explore how human teachers can support this learning by providing feedback and demonstrations, making the robot learning safer and faster. Consequently, my research lies at the intersection between Human-Robot Interaction, Interactive Machine Learning and Learning from Demonstrations.</p>-->
+
+		</section>
+		<section id="research" class="two">
+			<h3>Collaborators</h3>
+			<p>I am currently (or have been) working with:<br>
+				<a href="https://shalutharajapakshe.com/">Shalutha Rajapakshe</a><br>
+				<a href="https://calinon.ch/">Dr. Sylvain Calinon</a><br>
+				<a href="https://www.idiap.ch/~odobez/">Dr. Jean-Marc Odobez</a><br>
+				<a href="http://pages.cs.wisc.edu/~bilge/">Prof. Bilge Mutlu</a><br>
+				<a href="http://pages.cs.wisc.edu/~gleicher/">Prof. Michael Gleicher</a><br>
+				<a href="https://www.hageneaux.com/">Michael Hagenow</a><br>
+				<a href="https://www.laurastegner.com/">Laura Stegner</a><br>
+				<a href="http://pragathip.github.io/">Pragathi Praveena</a><br>
+				<a href="https://www.linkedin.com/in/andrewjschoen/">Andrew Schoen</a><br>
+				<a href="https://dporfirio.github.io/">David Portfirio</a><br>
+				Kevin Welsh<br>
+				<a href="https://www.linkedin.com/in/prajna-m/">Prajna Bhat</a><br>
+				Luis Molina<br>
+				<a href="https://www.linkedin.com/in/titus-smith-827534193/">Titus Smith</a><br>
+				<a href="https://www.linkedin.com/in/anna-konstant-99930194/">Anna Konstant</a><br>
+				<a href="https://www.robot.soc.i.kyoto-u.ac.jp/author/kanda">Prof. Takayuki Kanda</a><br>
+				<a href="https://irc.atr.jp/~satoru/">Dr. Satoru Satake</a><br>
+				<a href="http://tonybelpaeme.me/">Prof. Tony Belpaeme</a><br>
+				<a href="http://paul-baxter.github.io/">Dr. Paul Baxter</a><br>
+				<a href="http://academia.skadge.org/">Prof. Séverin Lemaignan</a><br>
+				<a href="https://james-kennedy.github.io/">James Kennedy</a><br>
+				<a href="https://www.baharirfan.com/">Bahar İrfan</a><br>
+				Christopher Wallbridge<br>
+				Daniel Hernandez Garcia<br>
+				Madeleine Bartlett<br>
+				<a href="http://www.cognovo.eu/people/research-fellows/thomas-r-colin.php">Thomas Colin</a><br>
+				<a href="http://dream2020.eu/">DREAM Project</a><br>
+				<a href="https://www.plymouth.ac.uk/research/robotics-neural-systems">Centre for Robotics and Neural
+					Systems</a><br>
+			</p>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<div id="footer">
+
+		<!-- Copyright -->
+		<ul class="copyright">
+			<li>&copy; Emmanuel Senft. All rights reserved.</li>
+			<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+		</ul>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
 </html>
