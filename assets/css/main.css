@@ -2253,14 +2253,20 @@ input, select, textarea {
 
 			#main > section.two {
 				background-color: #f5fafa;
+				padding-top: 1em;
+				padding-bottom: 3em;
 			}
 
 			#main > section.three {
 				background-color: #ecf1f1;
+				padding: 1em;
+				padding-bottom: 3em;
 			}
 
 			#main > section.four {
 				background-color: #e8edec;
+				padding: 1em;
+				padding-bottom: 3em;
 			}
 
 /* Wide */

@@ -34,7 +34,7 @@
 				<ul>
 					<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
 					<li><a href="research.html" id="top-link"><span class="icon solid fa-th">Research</span></a></li>
-					<li><a href="media.html" id="top-link"><span class="icon solid fa-newspaper">Media</span></a></li>
+					<li><a href="media.html" id="top-link"><span class="icon solid fa-newspaper">Media and Outreach</span></a></li>
 					<li><a href="publications.html" id="top-link"><span
 								class="icon solid fa-file">Publications</span></a></li>
 					<li><a href="cv.pdf" id="top-link"><span class="icon solid fa-user">CV</span></a></li>
@@ -78,17 +78,34 @@
 				<h2>Research</h2>
 			</header>
 		</section>
+        <section id="research" class="three">
+			<h3>Assistive robotics</h3>
+			<p>My current research at Idiap focuses on assistive robotics, exploring how robots such as the <a href="https://www.fp-robotics.com/en/lio/">Lio robot</a> can help people in need.
+			</p>
+
+            <div class="biothumb">
+                <img alt="image" src="images/assistive.jpeg" class="img-responsive" width=300>
+            </div>
+		</section>
+        </section>
+        <section id="research" class="two">
+            <h3>Interactive learning for manufacturing</h3>
+            <p>A second axis of my current research relates to the use of Human-in-the-loop learning for predictive manufacturing and maintenance. I recently was awarded an Innosuisse project to explore this aspect in the <a href="https://www.aramis.admin.ch/Texte/?ProjectID=54288">PmPm Project</a> in collaboraiton with HES-SO Valais's <a href=""https://www.hevs.ch/en/activites-instituts/smart-process-lab-20221">Smart Process Lab</a>.
+            </p>
+
+
+        </section>
 		<section id="research" class="three">
 			<h3>Natural interfaces for robotic autonomy</h3>
-			<p>My last research took place in the NASA ULI <a href="https://techport.nasa.gov/view/96115">Effective
-					Human-Robot Teaming to Advance Aviation Manufacturing</a> project where we
+			<p>During the NASA ULI <a href="https://techport.nasa.gov/view/96115">Effective
+					Human-Robot Teaming to Advance Aviation Manufacturing</a> project, we
 				<!-- Currently, aircraft manufacturing is made by a collections of process which are either (a) highly manual and create strong ergonomic issues for workers or (b) highly automated with gigantic machines which are extremely precise and efficient, but not flexible.
-							The goal of this project is to --> develop new flexible automation paradigms based on Human-Robot collaboration
-				for aircraft manufacturing. With these systems, we will profit both from the robots' ability to realize
+							The goal of this project is to --> developped new flexible automation paradigms based on Human-Robot collaboration
+				for aircraft manufacturing. With these systems, we can benefit from both the robots' ability to realize
 				repetitive and streneous tasks, and the human flexibility to detect what can be done and if the process
 				is success.
 			</p>
-			<p> I was postdoc on this project, and my role is to coordinate and integrate work from a team of grad
+			<p> I was postdoc on this project, and my role was to coordinate and integrate work from a team of graduate
 				students and project assistants.
 				On top of this integration work, I research new interfaces and workflows to allow for flexible authoring
 				of rich robotic behaviors by shop floor workers.
@@ -108,46 +125,45 @@
 		</section>
 		<section id="research" class="two">
 			<h3>Mechanisms for polite navigation</h3>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/wPnGHM_edk4" frameborder="0"
-				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-
-			<p>This project explored how robot should cross people in narrow corridors, specifically when there is not
+            <p>This project explored how robot should cross people in narrow corridors, specifically when there is not
 				enough space for crossing and the human and the robot have to be close to each other.
 				Results from our study showed that having the robot stopping on the side or moving forward had limited
 				impact on the human.
 				However, adding a rotation of the robot when crossing the person was rated as warmer and more likeable.
 				Full paper available <a href="https://emmanuel-senft.github.io/papers/2020-ES-HRI.pdf">here</a>.</p>
 			</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/wPnGHM_edk4" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
 		</section>
 		<section id="research" class="three">
 			<h3>Learning social strategies in teaching</h3>
+
+            <p>To teach robots to interact with humans, during my PhD, I developed <a
+                href="https://emmanuel-senft.github.io/papers/2015-ES-ICSR.pdf">SPARC</a> (for Supervised
+            Progressively Autonomous Robot Competencies), a learning paradigm to teach robots policies in real world
+            interactions.
+            SPARC uses interactive machine learning and keeps a human in the action selection loop to ensure that
+            each action executed by the robot is correct even in the early stages of the learning.
+            SPARC relies on a selection/suggestion/correction mechanism whereby the human can select actions for the
+            robot, the robot can suggest an action to the human who can either passively accept the action and let
+            it be executed after a small delay or prevent it.
+            This allow to rely importantly on the human at the start of the interaction when the robot is still
+            learning how to interact. Then, as the robot improves its policy, its autonomy can increase, thus
+            reducing need for the human to select actions for the robot.
+            The main outcome of the research can be found <a
+                href="https://robotics.sciencemag.org/content/4/35/eaat1186">here</a>.
+        </p>
+
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/wG-AYmgJpds"
 				title="YouTube video player" frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen></iframe>
 
-			<p>To teach robots to interact with humans, during my PhD, I developed with my supervisors <a
-					href="https://emmanuel-senft.github.io/papers/2015-ES-ICSR.pdf">SPARC</a> (for Supervised
-				Progressively Autonomous Robot Competencies), a learning paradigm to teach robots policies in real world
-				interactions.
-				SPARC uses interactive machine learning and keeps a human in the action selection loop to ensure that
-				each action executed by the robot is correct even in the early stages of the learning.
-				SPARC relies on a selection/suggestion/correction mechanism whereby the human can select actions for the
-				robot, the robot can suggest an action to the human who can either passively accept the action and let
-				it be executed after a small delay or prevent it.
-				This allow to rely importantly on the human at the start of the interaction when the robot is still
-				learning how to interact. Then, as the robot improves its policy, its autonomy can increase, thus
-				reducing need for the human to select actions for the robot.
-				The main outcome of the research can be found <a
-					href="https://robotics.sciencemag.org/content/4/35/eaat1186">here</a>.
-			</p>
-
 		</section>
 		<section id="research" class="two">
 			<h3>Robotic-Enhanced Therapy for Children with Autism</h3>
-			<img src="images/asd.png" alt="Robotic-Enhanced Therapy for Children with Autism" width="560">
-			<p> The <a href="http://dream2020.eu/">DREAM Project</a> was a large scale EU FT7 project exploring how we
+            <p> The <a href="http://dream2020.eu/">DREAM Project</a> was a large scale EU FT7 project exploring how we
 				could use supervised autonomy to enhance Robot-Assisted Therapies for children with autism spectrum
 				disorder.
 				The goal of this project was twofold: (a) create a robust architecture for the robot allowing the robot
@@ -163,11 +179,12 @@
 					href="https://www.degruyter.com/view/journals/pjbr/8/1/article-p18.xml">here</a>, and the general
 				outcomes of the project will be published soon.
 			</p>
+			<img src="images/asd.png" alt="Robotic-Enhanced Therapy for Children with Autism" width="560">
+
 
 		</section>
 		<section id="research" class="three">
 			<h3>Long-Term Human-Robot Interaction for Cardiac Rehabilitation</h3>
-			<img src="images/cardiac.jpg" alt="Long-Term Interaction for Cardiac Rehabilitation" width="560">
 			<p> This project is a collaboration between our team in the University of Plymouth and the Marcela Munera
 				and Carlos A. Cifuentes in Colombian School of Engineering Julio Garavito focused on how Socially
 				Assistive Robots could help patients to adhere better to a cardiac rehabilitation.
@@ -178,6 +195,7 @@
 					href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8588133">here</a>, full results are under
 				review.
 			</p>
+			<img src="images/cardiac.jpg" alt="Long-Term Interaction for Cardiac Rehabilitation" width="560">
 			<!--<p>This approach has been developed as part of the <a href="http://dream2020.eu/">DREAM Project</a> which seeks to develop new Robot-Enhanced Therapies for children with ASD. In this context, a therapist would start to control the robot in a Wizard of Oz-like fashion (the robot being maily tele-operated) and as the algorithm learns the therapist’s desire, the robot is making more appropriate suggestions which can be simply passively accepted reducing the workload on the therapist over time. This would allow robots to be used in therapies more easily, without requiring important involvement of technical staff to control the robot. SPARC has been applied to the context of tutor robots, supporting children in a learning task. In my last study, a robot was taught by a psychology student to interact with children. Results showed that SPARC made the learning process safe and efficient, and that the resulting autonomous behaviour led to an autonomous behaviour similar to the one displayed when the robot was supervised by the teacher.
 						</p>
 						<p>SPARC has been developed with the Robot Enhanced Therapy scenario in mind, but is applicable to a wider range of uses, such as an assistant at home which would learn from its user their desires and would find way to inform them about action about to be executed without having the human to correct them a posteriori or in education where a teacher could design its own teaching assistant to interact as tutor with the children.
