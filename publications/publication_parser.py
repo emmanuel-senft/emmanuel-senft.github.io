@@ -1,7 +1,7 @@
 import json
 import os 
 
-def insert_papers(f, papers):
+def insert_journals(f, papers):
     last_year = 0
     for j in papers["journals"]:
         year = j["year"]
@@ -20,7 +20,7 @@ def insert_papers(f, papers):
             f.write("                      <a href=\""+j["pdf_address"]+"\" target=\"_blank\">PDF</a>")
         f.write("<br>\n                  </r><hr>\n")
         last_year = year
-    f.write("                  <h3>Conferences</h3>\n")
+def insert_conferences(f, papers):
     last_year=0
     for j in papers["conferences"]:
         year = j["date"].split(" ")[1]
@@ -35,7 +35,8 @@ def insert_papers(f, papers):
             f.write("                      <a href=\""+j["pdf_address"]+"\" target=\"_blank\">PDF</a>")
         f.write("<br>\n                  </r><hr>\n")
         last_year = year
-    f.write("                  <h3>Workshops and Posters</h3>\n")
+
+def insert_workshop(f, papers):
     last_year=0
     for j in papers["workshops"]:
         year = j["date"].split(" ")[1]
@@ -60,9 +61,13 @@ if __name__ == '__main__':
     with open(dir_path + '/model.html') as f:
         model = f.readlines()
 
-    with open(dir_path + '/../publication.html', "w") as f: 
+    with open(dir_path + '/../publications.html', "w") as f: 
         for line in model:
-            if line[:-1] == "                  INSERT PUBLICATION":
-                insert_papers(f, papers)
+            if line[:-1] == "            INSERT_JOURNALS":
+                insert_journals(f, papers)
+            elif line[:-1] == "			INSERT_CONFERENCES":
+                insert_conferences(f, papers)
+            elif line[:-1] == "            INSERT_WORKSHOP":
+                insert_workshop(f, papers)
             else:
                 f.write(line)

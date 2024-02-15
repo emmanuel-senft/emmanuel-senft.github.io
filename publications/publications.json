@@ -1,6 +1,22 @@
 {
     "journals": [
         {
+            "authors": "M. Hagenow, E. Senft, N. Orr, R. Radwin, M. Gleicher, B. Mutlu, DP. Losey, M. Zinn",
+            "title": "Coordinated Multi-Robot Shared Autonomy Based on Scheduling and Demonstrations.",
+            "journal": "IEEE Robotics and Automation Letters (RA-L)",
+            "year": 2023,
+            "DOI": "",
+            "pdf_address": "https://arxiv.org/pdf/2303.15972"
+        },
+        {
+            "authors": "P. Praveena, Y. Wang, E. Senft, M. Gleicher, B. Mutlu",
+            "title": "Periscope: A Robotic Camera System to Support Remote Physical Collaboration.",
+            "journal": "Accepted in PACM HCI and presented at CSCW 2023",
+            "year": 2023,
+            "DOI": "https://doi.org/10.1145/3584931.3607493",
+            "pdf_address": "https://arxiv.org/pdf/2305.07517"
+        },
+        {
             "authors": "B. Ramesh, A. Konstant, P. Pravenna, E. Senft, M. Gleicher, B. Mutlu, M. Zinn, R.G. Radwin",
             "title": "Manually Acquiring Targets from Multiple Viewpoints Using Video Feedback.",
             "journal": "Accepted in Human Factors",
@@ -131,10 +147,30 @@
     ],
     "conferences": [
         {
+            "authors": "M. Hagenow, E. Senft, R. Radwin, M. Gleicher, M. Zinn, B. Mutlu",
+            "title": "A System for Human-Robot Teaming through End-User Programming and Shared Autonomy",
+            "venue": "Accepted at the 19th ACM/IEEE International Conference on Human-Robot Interaction",
+            "acronym": "(HRI)",
+            "country": "USA",
+            "city": "Boulder, CO",
+            "date": "March 2024",
+            "pdf_address": "https://arxiv.org/pdf/2401.12380" 
+        },
+        {
+            "authors": "L. Stegner, E. Senft, B. Mutlu",
+            "title": "Situated Participatory Design: A Method for In Situ Design of Robotic Interaction with Older Adults",
+            "venue": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+            "acronym": "(CHI)",
+            "country": "Germany",
+            "city": "Hamburg",
+            "date": "April 2023",
+            "pdf_address": "https://arxiv.org/pdf/2302.00588" 
+        },
+        {
             "authors": "E. Senft*, M. Hagenow*, P. Praveena, R. Radwin, M. Zinn, M. Gleicher, B. Mutlu (* shared fist-authorship)",
             "title": "A Method For Automated Drone Viewpoints to Support Remote Robot Manipulation",
             "venue": "Accepted at the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems",
-            "acronym": "(HRI)",
+            "acronym": "(IROS)",
             "country": "Japan",
             "city": "Kyoto",
             "date": "October 2022",
@@ -144,7 +180,7 @@
             "authors": "M. Hagenow, E. Senft, E. Laske, K. Hambuchen, T. Fong, R. Radwin, M. Gleicher, B. Mutlu, M. Zinn",
             "title": "Registering Articulated Objects With Human-in-the-loop Corrections",
             "venue": "Accepted at the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems",
-            "acronym": "(HRI)",
+            "acronym": "(IROS)",
             "country": "Japan",
             "city": "Kyoto",
             "date": "October 2022",
@@ -302,6 +338,16 @@
         }
     ],
     "workshops": [
+        {
+            "authors": "S. Bagchi, P. Holthaus, G. Beraldo, E. Senft, D. Hernandez Garcia, Z. Han, S. Kumaar Jayaraman, A. Rossi, C. Esterwood, A. Andriella, P. Pridham",
+            "title": "Towards Improved Replicability of Human Studies in Human-Robot Interaction: Recommendations for Formalized Reporting",
+            "venue": "Companion of the 2023 ACM/IEEE International Conference on Human-Robot Interaction",
+            "acronym": "(HRI)",
+            "country": "Sweden",
+            "city": "Stockhold",
+            "date": "March 2023",
+            "pdf_address": "https://uhra.herts.ac.uk/bitstream/handle/2299/26507/Bagchi2023.pdf;jsessionid=E78D01C6E6402CD5E5AA781E5AE69368?sequence=1" 
+        },
         {
             "authors": "CD. Wallbridge, S. Lemaignan, E. Senft, T. Belpaeme",
             "title": "Towards Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous",

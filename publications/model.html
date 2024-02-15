@@ -1,60 +1,117 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127162467-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', 'UA-127162467-1');
-	</script>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
-        <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <title>Emmanuel Senft</title>
-		<link rel="shortcut icon" href="images/icon.ico">
-    </head>
-    
-   <!--[if IE 6 ]><body class="ie6 old_ie"><![endif]-->
-   <!--[if IE 7 ]><body class="ie7 old_ie"><![endif]-->
-   <!--[if IE 8 ]><body class="ie8"><![endif]-->
-   <!--[if IE 9 ]><body class="ie9"><![endif]-->
-   <!--[if !IE]><!--><body><!--<![endif]-->
-         <div id="bloc_page">
-            <header>
-               <div id="titre_principal">
-                  <h1>Emmanuel Senft </h1>
-                  <h2>Researcher in Human-Robot Interaction</h2>
-                  <nav>
-                      <ul>
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="research.html">Research</a></li>
-                          <!-- <li><a href="professional.html">Professional</a></li> -->
-                          <li><a href="media.html">Media</a></li>
-                          <li><a href="publication.html">Publications</a></li>
-                          <li><a href="cv.pdf" target="_blank">CV</a></li>
-                      </ul>
-                  </nav>
-              </div>
-              <aside>
-                  <p><img id="photo_dream" src="images/childnao.jpg" alt="Nao used for DREAM"  class="center" /></p>
-               </aside>
-            </header>
-            
-            <section>
-               <article>
-                  <h2>Publications</h2>
-                  <h3>Journals</h3>
-                  INSERT PUBLICATION
-               </article>
-            </section>
-            
-            <footer>
-            </footer>
-         </div>
-    </body>
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127162467-1"></script>
+	<title>Emmanuel Senft</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="images/icon.jpg">
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<div id="header">
+
+		<div class="top">
+
+			<!-- Logo -->
+			<div id="logo">
+				<span class="image avatar48"><img src="images/portrait-idiap square.jpg" alt="" /></span>
+				<h1 id="title">Emmanuel Senft</h1>
+				<p>Research Scientist, Idiap</p>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+					<li><a href="research.html" id="top-link"><span class="icon solid fa-th">Research</span></a></li>
+					<li><a href="media.html" id="top-link"><span class="icon solid fa-newspaper">Media and Outreach</span></a></li>
+					<li><a href="publications.html" id="top-link"><span
+								class="icon solid fa-file">Publications</span></a></li>
+					<li><a href="cv.pdf" id="top-link"><span class="icon solid fa-user">CV</span></a></li>
+					<!-- <li><a href="index.html#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+							<li><a href="page2.html#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+							<li><a href="index.html#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li> -->
+				</ul>
+			</nav>
+
+		</div>
+
+		<div class="bottom">
+
+			<!-- Social Icons -->
+			<ul class="icons">
+				<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+				<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+				<li><a href="https://ch.linkedin.com/in/emmanuel-senft-a4853251" class="icon brands fa-linkedin"><span
+							class="label">Linkedin</span></a></li>
+				<li><a href="https://scholar.google.fr/citations?user=Yw1tGf4AAAAJ&hl=en"
+						class="icon brands fa-google-scholar"><span class="label">Scholar</span></a></li>
+				<li><a href="https://orcid.org/0000-0001-7160-4352" class="icon brands fa-orcid"><span
+							class="label">orcid</span></a></li>
+				<li><a href="https://github.com/emmanuel-senft" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+				<li><a href="mailto:esenft@idiap.ch" class="icon solid fa-envelope"><span class="label">Email</span></a>
+				</li>
+			</ul>
+
+		</div>
+
+	</div>
+
+
+	<!-- Main -->
+	<div id="main">
+		<!-- Portfolio -->
+		<section id="publication" class="two">
+			<header>
+				<h2>Publications</h2>
+			</header>
+		</section>
+		<section id="research" class="three">
+			<h3>Journals</h3>
+            INSERT_JOURNALS
+		</section>
+		<section id="research" class="two">
+			<h3>Conferences</h3>
+			INSERT_CONFERENCES
+		</section>
+		<section id="research" class="three">
+			<h3>Workshops and Posters</h3>
+            INSERT_WORKSHOP
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<div id="footer">
+
+		<!-- Copyright -->
+		<ul class="copyright">
+			<li>&copy; Emmanuel Senft. All rights reserved.</li>
+			<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+		</ul>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
 </html>
