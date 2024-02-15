@@ -17,11 +17,19 @@
             "pdf_address": "https://arxiv.org/pdf/2305.07517"
         },
         {
+            "authors": "B. Irfan, N. Céspedes, J. Casas, E. Senft, L.F. Gutiérrez, M. Rincon-Roncancio, C.A. Cifuentes, T. Belpaeme, and M. Múnera",
+            "title": "Personalised Socially Assistive Robot for Cardiac Rehabilitation: Critical Reflections on Long-Term Interactions in the Real World.",
+            "journal": "User Modeling and User-Adapted Interaction.",
+            "year": 2022,
+            "DOI": "https://doi.org/10.1007/s11257-022-09323-0",
+            "pdf_address": "https://link.springer.com/content/pdf/10.1007/s11257-022-09323-0.pdf"
+        },
+        {
             "authors": "B. Ramesh, A. Konstant, P. Pravenna, E. Senft, M. Gleicher, B. Mutlu, M. Zinn, R.G. Radwin",
             "title": "Manually Acquiring Targets from Multiple Viewpoints Using Video Feedback.",
-            "journal": "Accepted in Human Factors",
+            "journal": "Human Factors: The Jounral of the Human Factors and Ergonomics Society",
             "year": 2022,
-            "DOI": "",
+            "DOI": "https://doi.org/10.1177/00187208221093829",
             "pdf_address": "https://arxiv.org/pdf/2204.06969"
         },
         {
