@@ -25,7 +25,7 @@
             "pdf_address": "https://link.springer.com/content/pdf/10.1007/s11257-022-09323-0.pdf"
         },
         {
-            "authors": "B. Ramesh, A. Konstant, P. Pravenna, E. Senft, M. Gleicher, B. Mutlu, M. Zinn, R.G. Radwin",
+            "authors": "B. Ramesh, A. Konstant, P. Pravenna, E. Senft, M. Gleicher, B. Mutlu, M. Zinn, R. Radwin",
             "title": "Manually Acquiring Targets from Multiple Viewpoints Using Video Feedback.",
             "journal": "Human Factors: The Jounral of the Human Factors and Ergonomics Society",
             "year": 2022,
@@ -347,6 +347,36 @@
     ],
     "workshops": [
         {
+            "authors": "S. Rajapakshe, A. Dastenavar, A. Schakkal, E. Senft",
+            "title": "Synergizing Natural Language Towards Enhanced Shared Autonomy",
+            "venue": "CONCATENATE Workshop at HRI 2024",
+            "acronym": "(CONCATENATE )",
+            "country": "USA",
+            "city": "Boulder (CO)",
+            "date": "March 2024",
+            "pdf_address": "https://dl.acm.org/doi/abs/10.1145/3610978.3640720" 
+        },
+        {
+            "authors": "L. Stegner, E. Senft, B. Mutlu",
+            "title": "Factors that Affect Personalization of Robots for Older Adults",
+            "venue": "Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction",
+            "acronym": "(HRI)",
+            "country": "USA",
+            "city": "Boulder (CO)",
+            "date": "March 2024",
+            "pdf_address": "https://arxiv.org/pdf/2402.17769" 
+        },
+        {
+            "authors": "A. Konstant, N. Orr, M. Hagenow, E. Senft, I. Gundrum, B. Mutlu, M. Zinn, M. Gleicher, R. Radwin",
+            "title": "Human-Robot Collaboration in a Sanding Task",
+            "venue": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+            "acronym": "",
+            "country": "USA",
+            "city": "",
+            "date": "October 2023",
+            "pdf_address": "https://journals.sagepub.com/doi/pdf/10.1177/21695067231193667?download=true" 
+        },
+        {
             "authors": "S. Bagchi, P. Holthaus, G. Beraldo, E. Senft, D. Hernandez Garcia, Z. Han, S. Kumaar Jayaraman, A. Rossi, C. Esterwood, A. Andriella, P. Pridham",
             "title": "Towards Improved Replicability of Human Studies in Human-Robot Interaction: Recommendations for Formalized Reporting",
             "venue": "Companion of the 2023 ACM/IEEE International Conference on Human-Robot Interaction",
@@ -359,7 +389,7 @@
         {
             "authors": "CD. Wallbridge, S. Lemaignan, E. Senft, T. Belpaeme",
             "title": "Towards Generating Spatial Referring Expressions in a Social Robot: Dynamic vs Non-Ambiguous",
-            "venue": "Companion Proc. 14th ACM/IEEE International Conference on Human-Robot Interaction Extended Abstract",
+            "venue": "Companion of the 2019 ACM/IEEE International Conference on Human-Robot Interaction",
             "acronym": "(HRI)",
             "country": "Korea",
             "city": "Daegu",
